@@ -1,0 +1,68 @@
+[Appium] Welcome to Appium v1.7.2
+[Appium] Non-default server args:
+[Appium]   port: 50521
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 50524
+[Appium]   tmpDir: /var/folders/9n/z08tdxsj4rd5tp3nqrtm4bf96qw139/T//Katalon/Appium/Temp1524849976940
+[Appium] Appium REST http interface listener started on 0.0.0.0:50521
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 19 ms - 72 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 11 ms - 72 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/hencarva/Downloads/Build.apk","autoGrantPermissions":true,"deviceId":"","deviceName":"HUAWEI HUAWEI GRA-UL00 (Android 6.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"7VL7N15911001648"},"capabilities":{"desiredCapabilities":{"app":"/Users/hencarva/Downloads/Build.apk","autoGrantPermissions":true,"deviceId":"","deviceName":"HUAWEI HUAWEI GRA-UL00 (Android 6.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"7VL7N15911001648"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"app":"/Users/hencarva/... into desiredCapabilities object {"app":"/Users/hencarva/Downloads/Build.apk","a...
+[Appium] Creating new AndroidDriver (v1.37.0) session
+[Appium] Capabilities:
+[Appium]   app: /Users/hencarva/Downloads/Build.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   deviceId: 
+[Appium]   deviceName: HUAWEI HUAWEI GRA-UL00 (Android 6.0)
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: ANDROID
+[Appium]   platformName: android
+[Appium]   udid: 7VL7N15911001648
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: 81580b09-78c8-4738-bc29-3d47e08e0bd7
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb from /Users/hencarva/.katalon/tools/android_sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 7VL7N15911001648
+[ADB] Checking whether adb is present
+[BaseDriver] Using local app '/Users/hencarva/Downloads/Build.apk'
+[AndroidDriver] Starting Android session
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Users/hencarva/.katalon/tools/android_sdk/build-tools/27.0.3/aapt
+[ADB] Checking whether aapt is present
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/125fe823f29161f8ef8c55ab45b47c24.apk
+[AndroidDriver] Apk is not yet installed
+[AndroidDriver] installing apk from remote
+[AndroidDriver] Clearing out any existing remote apks with the same hash
+[ADB] com.digitashealth.duke was not uninstalled, because it was not present on the device
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen
+[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen
+[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen
+[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen
+[Appium] New AndroidDriver session created successfully, session 81580b09-78c8-4738-bc29-3d47e08e0bd7 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 179729 ms - 1117 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 31 ms - 83 
+[HTTP] --> POST /wd/hub/session/81580b09-78c8-4738-bc29-3d47e08e0bd7/timeouts {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/81580b09-78c8-4738-bc29-3d47e08e0bd7/timeouts 200 8 ms - 76 
+[Appium] Closing session, cause was 'UiAUtomator shut down unexpectedly'
+[Appium] Removing session 81580b09-78c8-4738-bc29-3d47e08e0bd7 from our master session list
